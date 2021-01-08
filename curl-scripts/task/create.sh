@@ -11,7 +11,9 @@ curl "${API}${URL_PATH}" \
   --data '{
     "example": {
       "task": "'"${TASK}"'",
-      "dueDate": "'"${DUEDATE}"'"
+      "dueDate": "'"${DUEDATE}"'",
+      "isComplete": "'"${COMPLETE}"'",
+      "owner": "'"${OWNER}"'"
     }
   }'
 

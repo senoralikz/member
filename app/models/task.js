@@ -6,7 +6,14 @@ const taskSchema = new mongoose.Schema({
     required: true
   },
   dueDate: String,
+<<<<<<< HEAD
   isComplete: Boolean,
+=======
+  isComplete: {
+    type: Boolean,
+    required: true
+  },
+>>>>>>> working
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',

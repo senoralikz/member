@@ -1,7 +1,7 @@
 #!/bin/sh
 
-API="http://localhost:4741"
-URL_PATH="/examples"
+API="https://protected-brushlands-52398.herokuapp.com"
+URL_PATH="/tasks"
 
 curl "${API}${URL_PATH}" \
   --include \

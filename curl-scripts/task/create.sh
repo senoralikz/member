@@ -12,12 +12,7 @@ curl "${API}${URL_PATH}" \
     "task": {
       "task": "'"${TASK}"'",
       "dueDate": "'"${DUEDATE}"'",
-<<<<<<< HEAD
-      "isComplete": "'"${COMPLETE}"'",
-      "owner": "'"${OWNER}"'"
-=======
       "isComplete": "'"${COMPLETE}"'"
->>>>>>> working
     }
   }'
 

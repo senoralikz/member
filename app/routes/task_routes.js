@@ -51,7 +51,7 @@ router.get('/tasks/:id', requireToken, (req, res, next) => {
   Task.find({ owner: req.user._id, _id: id })
     .then(handle404)
     // if `findById` is succesful, respond with 200 and "task" JSON
-    .then(task => res.status(200).json({ task: task.toObject() }))
+    .then(task => res.status(200).json({ task: task }))
     // if an error occurs, pass it to the handler
     .catch(next)
 })

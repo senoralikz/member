@@ -5,8 +5,9 @@ const taskSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  dueDate: {
-    type: String,
+  dueDate: String,
+  isComplete: {
+    type: Boolean,
     required: true
   },
   owner: {

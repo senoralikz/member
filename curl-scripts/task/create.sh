@@ -9,9 +9,10 @@ curl "${API}${URL_PATH}" \
   --header "Content-Type: application/json" \
   --header "Authorization: Bearer ${TOKEN}" \
   --data '{
-    "example": {
+    "task": {
       "task": "'"${TASK}"'",
-      "dueDate": "'"${DUEDATE}"'"
+      "dueDate": "'"${DUEDATE}"'",
+      "isComplete": "'"${COMPLETE}"'"
     }
   }'
 

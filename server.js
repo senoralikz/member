@@ -58,8 +58,8 @@ app.use(requestLogger)
 
 // register route files
 app.use(exampleRoutes)
-app.use(taskRoutes)
 app.use(userRoutes)
+app.use(taskRoutes)
 
 // register error handling middleware
 // note that this comes after the route middlewares, because it needs to be

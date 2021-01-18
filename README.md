@@ -41,8 +41,8 @@ The application also has a client side. Below is my developement process for the
 'member-client deployed site:
 https://senoralikz.github.io/member-client/
 
-'member-api:
-https://github.com/senoralikz/member
+'member-client repo:
+https://github.com/senoralikz/member-client
 
 'member-api deployed site:
 https://dashboard.heroku.com/apps/protected-brushlands-52398

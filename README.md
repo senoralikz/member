@@ -37,7 +37,7 @@ The application also has a client side. Below is my developement process for the
 ### ERD
 ![Imgur](https://i.imgur.com/xxKA7VJ.png "ERD for Fullstack Project")
 
-### Link to Repo for Client Side of App and the Deployed Site of API
+### Links to Repo for Client Side of App and the Deployed Sites of Client and API
 'member-client deployed site:
 https://senoralikz.github.io/member-client/
 

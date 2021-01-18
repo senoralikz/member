@@ -1,5 +1,8 @@
 # 'member-api
 
+### Description
+'member is a to-do list. Create a user and add any tasks you would like with a due date. You will also be able to view, update or delete them as you like.
+
 ### Technologies Used
 - ExpressAPI
 - MongoDB
@@ -40,5 +43,3 @@ https://github.com/senoralikz/member-client
 
 'member-api deployed site:
 https://dashboard.heroku.com/apps/protected-brushlands-52398
-
-'member is a to-do list. Create a user and add any tasks you would like with a due date. You will also be able to view, update or delete them as you like.

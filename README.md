@@ -38,8 +38,11 @@ The application also has a client side. Below is my developement process for the
 ![Imgur](https://i.imgur.com/xxKA7VJ.png "ERD for Fullstack Project")
 
 ### Link to Repo for Client Side of App and the Deployed Site of API
-'member-client:
-https://github.com/senoralikz/member-client
+'member-client deployed site:
+https://senoralikz.github.io/member-client/
+
+'member-api:
+https://github.com/senoralikz/member
 
 'member-api deployed site:
 https://dashboard.heroku.com/apps/protected-brushlands-52398
